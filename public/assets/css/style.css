@@ -1,0 +1,68 @@
+body {
+    background-color: #ffdfba;
+}
+
+li {
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+    list-style-type: none;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.create-form {
+    padding: 5px;
+    margin: 5px;
+    background: rgba(235, 238, 231, 0.178);
+}
+
+.form-group {
+    margin-bottom: 5px;
+    width: auto;
+}
+
+#burgerImage {
+    max-width: 95%;
+    max-height: 90%;
+    padding: 15px;
+}
+
+#title {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+label {
+    display: block;
+}
+
+button {
+    border-radius: 5px;
+    background-color: rgb(0, 238, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+textarea {
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+@media screen and (max-width: 600px) {
+    .burger-img {
+        width: 100px;
+    }
+}
